@@ -1,8 +1,4 @@
 <?php
-$svr = "localhost:3306";
-$uid = "ReadUsr";
-$pwd = "sfmg9G";
-$dbname = "onehourp_mm5";
 $link = mysql_connect($svr, $uid, $pwd);
 if (!$link) {
     die('Could not connect: ' . mysql_error());
